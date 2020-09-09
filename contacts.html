@@ -123,7 +123,17 @@ Big Dance is your one stop destination. Known for its state of the art facilitie
               <span class="error-message">*This is not a valid phone.</span>
             </label>
 	       <label class="message">
-               <input type="date" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
+               <input type="date" name="date" placeholder="D:O:B" value="" data-constraints="@Required @JustNumbers" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*The message is too short.</span>
+            </label>
+	        <label class="message">
+               <input type="text" name="city" placeholder="City" value="" data-constraints="@Required @JustNumbers" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*The message is too short.</span>
+            </label>
+	      <label class="message">
+               <input type="text" name="address" placeholder="Address" value="" data-constraints="@Required @JustNumbers" />
               <span class="empty-message">*This field is required.</span>
               <span class="error-message">*The message is too short.</span>
             </label>
